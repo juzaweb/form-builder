@@ -1,0 +1,27 @@
+{
+    "name": "juzaweb/form-builder",
+    "type": "juzaweb-plugin",
+    "license": "MIT",
+    "description": "",
+    "extra": {
+        "juzaweb": {
+            "name": "juzaweb/form-builder",
+            "domain": "jufo",
+            "providers": [
+                "Juzaweb\\FormBuilder\\Providers\\FormBuilderServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Juzaweb\\FormBuilder\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.0|^8.1"
+    },
+    "require-dev": {
+         "juzaweb/modules": "^1.0",
+         "juzaweb/dev-tool": "^1.0"
+    }
+}
